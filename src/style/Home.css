@@ -1,0 +1,233 @@
+* {
+  background-color: rgba(8, 7, 7, 255);
+}
+.homepage {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.icon {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  gap: 20px;
+  color: rgb(9, 172, 172);
+  position: relative;
+  animation: iconn 1s;
+  animation-direction: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes iconn {
+  from {
+    top: -1000px;
+  }
+  to {
+    top: 0px;
+  }
+}
+.shortbio {
+  margin: auto;
+  position: relative;
+  animation: shortbio 2s;
+  animation-direction: 3s;
+  animation-iteration-count: 1;
+}
+@keyframes shortbio {
+  from {
+    top: -1000px;
+  }
+  to {
+    top: 0px;
+  }
+}
+.icon1:hover {
+  color: rgb(211, 152, 3);
+}
+h1,
+p {
+  color: rgb(255, 255, 255);
+}
+
+.homeimg {
+  position: relative;
+  animation: images 2s;
+  animation-direction: 3s;
+  animation-iteration-count: 1;
+}
+@keyframes images {
+  from {
+    right: -1000px;
+  }
+  to {
+    right: 0px;
+  }
+}
+.earth {
+  border-radius: 50%;
+}
+
+.btncv {
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: rgb(9, 172, 172);
+}
+.btncv:hover {
+  transform: translateY(1px);
+  background-color: rgb(4, 28, 28);
+  color: white;
+}
+.btnmail {
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: rgb(9, 172, 172);
+  text-decoration: none;
+  color: black;
+}
+.btnmail:hover {
+  transform: translateY(1px);
+  background-color: rgb(4, 28, 28);
+  color: white;
+}
+.progres1 {
+  width: 90%;
+}
+
+.About{
+    width: 1000px;
+    height: 570px;
+    margin: auto;
+    margin-top: 100px;
+}
+.aboutme{
+    width: 760px;
+    display: flex;
+    justify-content: space-between;
+}
+.test{
+    display: flex;
+    width: 1000px;
+}
+.skills1{
+    width: 1000px;
+}
+.skills2{
+    width: 1000px;
+}
+strong{
+    color: rgb(247, 244, 244);
+}
+.imageabout{
+    position: relative;
+    animation: images1 1s;
+    animation-direction: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes images1 {
+    from {
+      top: -1000px;
+    }
+    to {
+      top: 0px;
+    }
+}
+
+.aboutme1{
+    position: relative;
+    animation: aboutme1 2s;
+    animation-direction: 2s;
+    animation-iteration-count: 1;
+}
+.color{
+    color: rgb(202, 204, 204);
+   
+
+}
+
+@keyframes aboutme1 {
+    from {
+      top: -1000px;
+    }
+    to {
+      top: 0px;
+    }
+}
+
+.skills1{
+    position: relative;
+    animation: skills1 2s;
+    animation-direction: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes skills1 {
+    from {
+      left: -1000px;
+    }
+    to {
+      left: 0px;
+    }
+}
+
+.skills2{
+    position: relative;
+    animation: skills2 2s;
+    animation-direction: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes skills2 {
+    from {
+      right: -1000px;
+    }
+    to {
+      right: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .homepage {
+        display: flex;
+        flex-direction: column;
+    }
+    .icon{
+        display: flex;
+        flex-direction: row;
+    }
+    .earth{
+        width: 400px;
+    }
+    .shortbio{
+        width: 400px;
+    }
+   
+    .imageabout{
+
+        
+        display: none;
+    }
+    
+    .aboutme1{
+        margin-left: 100px;
+    }
+    .test{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    .nonedisplay{
+        display: none;
+    }
+    .skills1{
+        width: 300px;
+        margin-left: 100px;
+
+    }
+    .skills2{
+        width: 300px;
+        margin-left: 100px;
+
+    }
+  }
