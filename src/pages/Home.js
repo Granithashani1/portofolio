@@ -27,6 +27,7 @@ const Home = () => {
           src="https://media0.giphy.com/media/l5JbspfwZ0yjHjlJ0K/giphy.gif"
           alt="Images"
           className="earth"
+          id="granit"
         />
       </div>
     </div>
